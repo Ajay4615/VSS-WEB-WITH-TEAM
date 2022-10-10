@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vidyarthi sahayak samiti</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css ">
+    <style>
+        body {
+            background-color: white;
+            height: auto;
+
+
+        }
+
+
+
+
+        .threeblogs {
+
+            flex-direction: row;
+            display: flex;
+            height: auto;
+            width: auto;
+
+            flex-wrap: wrap;
+
+            margin-top: 85px;
+
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 140px;
+            height: 470px;
+
+
+
+        }
+
+        .threeblogsmembers1 {
+            margin-left: 382px;
+            width: auto;
+            height: auto;
+            background-color: #d99667;
+            margin-bottom: 80px;
+            border-radius: 33px;
+        }
+
+        .threeblogsmembers2 {
+            margin-left: 382px;
+            width: auto;
+            height: auto;
+            background-color: #75b9ec;
+            margin-bottom: 80px;
+            border-radius: 33px;
+
+
+        }
+
+        #a {
+
+            width: 506px;
+            margin-right: -216px;
+        }
+
+        #b {
+            width: 506px;
+            margin-right: -216px;
+        }
+
+        figcaption1 {
+            width: 400px;
+            font-family: 'Noto Sans';
+            font-size: 105%;
+            font-style: inherit;
+            font-weight: inherit;
+            color: black;
+        }
+
+        h2 {
+            color: dark black;
+            margin-left: 33px;
+        }
+
+        .logocontainer {
+            padding: 0px;
+            margin: 0px;
+            background-color: white;
+            display: grid;
+
+            grid-template-rows: 1fr 1fr 1fr;
+            margin-bottom: -313px;
+            grid-template-columns: 180px 520px 1fr;
+            height: 160px;
+            margin-bottom: -43px;
+
+        }
+
+        .logocontainer1 {
+            height: 160px;
+        }
+
+        .logocontainer2 {
+            background-color: white;
+            width: 445px;
+            height: 160px;
+        }
+
+        .logocontainer3 {
+            font-size: 104%;
+            margin-left: 652px;
+            height: 160px;
+        }
+
+        hr {
+            color: red;
+            margin-top: 12px;
+            margin-bottom: 6px;
+        }
+
+        .name {
+
+            font-size: 33px;
+            margin-top: 33px;
+            margin-left: -30px;
+        }
+
+        .tele {
+            display: grid;
+            grid-template-rows: 20px 200px;
+            grid-template-columns: 20px 200px;
+            column-gap: 27px;
+        }
+
+
+
+        .tele2 {
+            margin-top: 6px;
+        }
+
+        .addr {
+            display: grid;
+            grid-template-rows: 20px 200px;
+            grid-template-columns: 20px 200px;
+            column-gap: 27px;
+            height: 44px;
+        }
+
+
+
+        .addr2 {
+        
+            width: 500px;
+            margin-top: 6px;
+        }
+
+        .email {
+            display: grid;
+            grid-template-rows: 20px 200px;
+            grid-template-columns: 20px 200px;
+            column-gap: 27px;
+            height: 44px
+        }
+
+
+        .email2 {
+            width:400px ;
+            margin-top:6px ;
+        
+
+        }
+
+
+        /*here we start css for new menubar*/
+
+        .commitecontainer {
+            display: flex;
+            height: auto;
+            width: auto;
+
+            flex-wrap: wrap;
+
+
+
+            margin-left: 324px;
+            margin-right: 142px;
+            margin-top: 150px;
+
+        }
+
+        .memberbox {
+            padding: 15px;
+            width: auto;
+            /* border: solid grey; */
+            margin: 26px;
+            width: auto;
+            height: auto;
+            margin-left: -17px;
+            border: 1.5px solid gray;
+
+        }
+
+        figcaption {
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            width: 209px;
+            margin-top: 4px;
+
+
+        }
+
+        li {
+            font-size: larger;
+            color: black;
+        }
+
+        p1 {
+
+
+
+            color: white;
+            font-size: larger;
+        }
+
+
+        p {
+            color: black;
+            font-size: wider;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 23px;
+        }
+
+
+
+
+
+
+
+
+
+        .menubar {
+            background-color: #004b8e;
+            text-align: center;
+            width: 1880px;
+            height: 101px;
+            padding-top: 10px;
+            padding: 16px;
+            margin-left: -10px;
+            margin-right: -10px;
+            
+
+
+
+        }
+           .menubar{
+            padding-right: 5px;
+           }
+        .menubar ul {
+            display: inline-flex;
+            list-style: none;
+            color: #fff;
+            ;
+            margin-top: -1px;
+        }
+
+        .menubar ul li {
+            width: 50px;
+            margin: 24px;
+            padding: 15px;
+        }
+
+        .menubar ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .active,
+        .menubar ul li:hover {
+            background: #ff6400;
+            border-radius: 3px;
+
+        }
+
+        .sub-menu-1 {
+            display: none;
+        }
+
+
+        .menubar ul li:hover .sub-menu-1 {
+            display: block;
+            position: absolute;
+            background: #ff6400;
+            margin-top: 15px;
+            margin-left: -15px;
+        }
+
+        .menubar ul li:hover .sub-menu-1 ul {
+            display: block;
+            margin: 10px;
+
+        }
+
+        .menubar ul li:hover .sub-menu-1 ul li {
+            width: 150px;
+            height: 20;
+            padding: 0 px;
+            border-bottom: 1px dotted #fff;
+            background: transparent;
+            border-radius: 0;
+            text-align: left;
+            color: #b2ff00;
+
+        }
+
+        .menubar ul li:hover .sub-menu-1 ul li:last-child {
+            border-bottom: none;
+        }
+
+        .menubar ul li:hover .sub-menu-1 ul li:hover {
+            color: #b2ff00;
+        }
+
+        /* submenu 2 style ........................ */
+
+        .sub-menu-2 {
+            display: none;
+        }
+
+        .menubar ul li:hover .sub-menu-2 {
+            display: block;
+            position: absolute;
+            background: #ff6400;
+            margin-top: 15px;
+            margin-left: -15px;
+        }
+
+        .menubar ul li:hover .sub-menu-2 ul {
+            display: block;
+            margin: 10px;
+
+        }
+
+        .menubar ul li:hover .sub-menu-2 ul li {
+            width: 140px;
+            padding: 0px;
+            border-bottom: 1px dotted #fff;
+            background: transparent;
+            border-radius: 0;
+            text-align: left;
+
+        }
+
+        .menubar ul li:hover .sub-menu-2 ul li:last-child {
+            border-bottom: none;
+        }
+
+        .menubar ul li:hover .sub-menu-2 ul li a:hover {
+            color: #b2ff00;
+        }
+
+        .headline {
+            border: 13px;
+            border-color: 2px #004b8e;
+        }
+
+        .fa-solid fa-phone {
+            text-align: left;
+        }
+
+        p4 {
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        div2 {
+            display: flex-column;
+
+        }
+
+        #box1,
+        #box2,
+        #box3,
+        #box4,
+        #box5,
+        #box6,
+        #box7,
+        #box8,
+        #box9,
+        #box10,
+        #box11,
+        #box12 {
+
+            width: 250px;
+            height: 250px;
+            margin: 54px;
+            padding: -16px;
+            background-color: cadetblue;
+
+        }
+
+
+        .heading {
+
+            font-size: 151%;
+            margin-left: 780px;
+            margin-bottom: -123px;
+            margin-top: -73px;
+        }
+
+        .line {
+            color: black;
+            background-color: black;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="headbar">
+        <div>
+
+
+
+            <!-- 
+        <marquee scrollamount="5" direction="left" bgcolor="#004b8e" height="30px" border:3px solid red; ">
+                        <b><i style=" font-family: sans-serif; color:white; font-size: 17px;">विद्यार्थी साहाय्यक समिती</i></b></marquee> -->
+
+            <div class="logocontainer">
+                <div class="logocontainer1"> <img src="singlelogocopy.jpg"></div>
+                <div class="logocontainer2">
+                    <div class="name"><b>विद्यार्थी साहाय्यक समिती, पुणे..
+                            <hr>
+                            Vidyarthi Sahayak Samiti ,Pune..
+                        </b>
+
+                    </div>
+                </div>
+                <div class="logocontainer3">
+                    <b>
+                        <ul>
+
+                            <!-- <li> 182/ 1/ 4,shivajinagar, Ferguson Road, pune</li>
+                        <br>
+                        <li>E-mail:- info@samiti.org</li>
+                        <br> -->
+                            <div class="addr">
+                                <div class="addr1"><img width="30px" margin=""
+                                        src="https://www.pngitem.com/pimgs/m/3-34062_address-apartment-casa-home-homepage-house-local-svg.png">
+                                </div>
+                                <div class="addr2">182/ 1/ 4,shivajinagar, Ferguson Road, pune.
+                                </div>
+                            </div>
+                            <div class="email">
+                                <div class="email1"><img width="30px" margin=""
+                                        src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png">
+                                </div>
+                                <div class="email2">E-mail:- info@samiti.org
+                                </div>
+                            </div>
+                            <div class="tele">
+                                <div class="tele1"><img width="30px" margin=""
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS0UcNp0iLJRlO9ygv9lopN39lsDVHUIyw0w&usqp=CAU">
+                                </div>
+                                <div class="tele2">020-25533631/9404855530
+                                </div>
+                            </div>
+
+                        </ul>
+                    </b>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+
+    <div class="menubar">
+        <ul>
+            <li><a href="Homepage.html">Home page</a></li>
+            <li><a href="Aboutsamiti.html">About Samiti</a></li>
+            <li><a href="Addmission.html">Addmission Process</a></li>
+            <li><a href="Activity.html">Activity</a></li>
+            <li><a href="Faciliti.html">facilities</a></li>
+            <li><a href="donate.html">Donation</a></li>
+            <li><a href="plan.html">Plan</a></li>
+            <li><a href="Alumni.html">Alumni</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="SamitiDarpan.html">Samiti Darpan</a>
+
+
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="Samiti Darapan - May - june 2022.html">Samiti Darapan-May-june 2022</a></li>
+                        <li><a href="Samirti Darpan - March - April 2022.html">Samiti Darapan-March-April 2022</a>
+                        </li>
+                        <li><a href="Samiti Darpan - January - february 2022.html">January-Feburary 2022</a></li>
+                        <li><a href="Samiti Darpan    november  - Decmber 2022.html">November-December 2021</a></li>
+                        <li><a href="Samiti Drapan - September - October 2022.html">September-October 2021</a></li>
+
+                    </ul>
+                </div>
+            </li>
+
+            <li><a href="more.html">More</a>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li><a href="contact.html">contact us</a></li>
+                        <li><a href="calculator.html">calculator</a></li>
+                        <li><a href="calender.html">calender</a></li>
+                        <li><a href="Blog.html">blog</a></li>
+
+                    </ul>
+                </div>
+            </li>
+
+    </div>
+    </ul>
+    <br>
+    <div class="threeblogs">
+        <div class="threeblogsmembers1" id="a">
+            <figure>
+                <h2><u> About - Vidyarthi Sahayak Samiti</u></h2>
+
+                <figcaption1>The work of the Student Aid Committee is seen as a life-changing organization and a
+                    center of youth
+                    transformation for thousands of students in rural areas. The Samiti is a body (No. E-219, Pune)
+                    registered with the Office of the Commissioner of Charities under section 50A(3) of the Public
+                    Trusts
+                    Act, 1950 and has jurisdiction all over India. Senior mathematician Dr. Arun Kumar has decided
+                    to
+                    provide accommodation and meals at affordable rates to the economically weak but quality
+                    students.
+                    Achyut Rao Apte, Haribhau Phatak, Sumitratai Kerkar and others started this work in 1955At that
+                    time, the work
+                    started from providing meals to five students at different homes. Next, the issue of students'
+                    accommodation was
+                    sorted out. Then facilities were provided for female students. Now the committee has four
+                    hostels in Pune and 747
+                    male and female students are availing the facilities there. Samiti is not just Lodging and
+                    Boarding but here the concept of personality development along with affordable accommodation,
+                    food arrangement is given utmost
+                    importance. The concept of caste, religion, creed is not given support in the committee<br><br>
+                    <hr>
+
+                </figcaption1>
+            </figure>
+        </div>
+
+
+        <div class="threeblogsmembers2" id="b">
+            <figure>
+                <h2><u> Activities & Facilities</u> </h2>
+                <figcaption1>Samiti is not only about lodging and boarding but also about accommodation and meals at
+                    reasonable
+                    rates
+                    The concept of personality development is of utmost importance. The committee works on the
+                    triple
+                    principles of cleanliness, equality and reputation of labour. Three to four students can be
+                    accommodated in one room.
+                    Each gets an independent cot, mattress, table, chair, cupboard. Besides fans and hot water,
+                    computer
+                    training, well-equipped library, health centre, sports materials etc. are provided.The
+                    committee's work is not limited to providing low-cost accommodation and meals, but the main
+                    goal of the committee is to develop the personality of the students. Various programs are
+                    organized for this purpose. The committee aims to transform these rural youth into a
+                    well-educated and self-confident generation through student management
+                    Group discussion, English language class. English presentations, yoga poses, sports
+                    (compulsory), cultural programs (cooking, debate, speech, storytelling etc.), lectures by
+                    experts in various fields, educational trips, entrepreneurship development activities, student
+                    management.<br><br>
+                    <hr>
+
+
+
+                </figcaption1>
+                <figure>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+
+    <div class="line">
+        abc
+    </div>
+
+
+
+
+    <div class="heading">
+        <b> <u> Board of Trustees: (2020-2023)</b> </u>
+    </div>
+
+
+
+    <div class="commitecontainer">
+        <div class="memberbox" id="box1">
+            <figure> <img width="250px" height="250px" src="https://samiti.org/wp-content/uploads/2021/09/PGP-1.jpg"
+                    alt="Shri PratapRao Pawar">
+                <figcaption> Padmashri Pratap Pawar<br>
+                    The Chairman
+                </figcaption>
+            </figure>
+        </div>
+
+
+        <div class="memberbox" id="box2">
+            <figure> <img width="250px" height="250px"
+                    src="https://samiti.org/wp-content/uploads/2021/06/Mr.-Vijay-Pusalkar-300x343.jpg" alt=" wealth. Vijay Pusalkar
+                            Permanent Trust">
+                <figcaption> Wealth. Vijay Pusalkar<br>
+                    Permanent Trust.
+                </figcaption>
+        </div>
+
+
+        <div class="memberbox" id="box3">
+            <figure> <img width="250px" height="250px"
+                    src="https://samiti.org/wp-content/uploads/2021/06/B-G-Jadhav-260821-300x343.jpg" alt="Dr. Bhausaheb Jadhav
+                        Permanently trusted">
+                <figcaption> Dr. Bhausaheb Jadhav<br>
+                    Permanently trusted
+                </figcaption>
+        </div>
+
+    
+
+        <div class="memberbox" id="box4">
+            <figure> <img width="250px" height="250px"
+                    src="https://samiti.org/wp-content/uploads/2021/06/Tushar-Ranjankar-260821-300x343.jpg" alt="Mr. Tej Nivikar
+                            Trusted, Salagar">
+                <figcaption> Mr .Tushar Ranjankar<br>
+                    faithful, worker.
+                </figcaption>
+        </div>
+
+
+        <div class="memberbox" id="box5">
+            <figure> <img width="250px" height="250px"
+                    src="https://samiti-org.translate.goog/wp-content/uploads/2021/09/unnamed-file.jpg?_x_tr_sl=mr&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc" alt="Mr. Jibhau Shewale
+                                    faithful, worker">
+                <figcaption> Mr. Tukaram Gaikwad<br>
+                    Executive Trustee, Activist
+                </figcaption>
+        </div>
+
+        <div class="memberbox" id="box6">
+            <figure> <img width="250px" height="250px"
+                    src="https://samiti.org/wp-content/uploads/2021/06/Rajendra-Tatar-260821-300x343.jpg" alt="Mr. Rajendra Tatar
+                                    faithful, worker">
+                <figcaption> Mr. Rajendra Tatar<br>
+                    faithful, worker
+                </figcaption>
+        </div>
+
+        <div class="memberbox" id="box7">
+            <figure> <img width="250px" height="250px"
+                    src="https://samiti.org/wp-content/uploads/2021/09/chandrakant-kulkarni-25102021-300x343.jpg" alt="Mr. Chandrakant Kulkarni
+                                    Chief Executive Officer">
+                <figcaption> Mr. Chandrakant Kulkarni<br>
+                    Chief Executive Officer
+                </figcaption>
+        </div>
+
+
+        <div class="memberbox" id="box8">
+            <figure> <img width="250px" height="250px"
+                    src="https://samiti-org.translate.goog/wp-content/uploads/2021/06/Mr.-Ramakant-Tamboli.jpg?_x_tr_sl=mr&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc" alt="Mr. Ratnakar Mate
+                                    faithful, worker">
+                <figcaption>Mr. Ramakant Tamboli
+                    <br>
+                    Trustees, activists..
+                </figcaption>
+        </div>
+        <div class="memberbox" id="box9">
+            <figure> <img width="250px" height="250px"
+                    src="https://samiti.org/wp-content/uploads/2021/06/Ratnakar-Mate-260821-300x343.jpg" alt="Mr. Ratnakar Mate
+                                    faithful, worker">
+                <figcaption>Mr. Ratnakar Mate<br>
+                    faithful, worker
+                </figcaption>
+        </div>
+
+        <div class="memberbox" id="box10">
+            <figure> <img width="250px" height="250px"
+                    src="https://samiti-org.translate.goog/wp-content/uploads/2021/08/Sanjay-Amrute-260821.jpg?_x_tr_sl=mr&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc" alt="Mr. Ratnakar Mate
+                                    faithful, worker">
+                <figcaption>Mr. Sanjay Amrite
+                  <br>
+                  Treasurer, Worker
+                </figcaption>
+        </div>
+
+        <div class="memberbox" id="box11">
+            <figure> <img width="250px" height="250px"
+                    src="https://samiti-org.translate.goog/wp-content/uploads/2021/06/Tej-Niwalikar-260821.jpg?_x_tr_sl=mr&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc" alt="Mr. Ratnakar Mate
+                                    faithful, worker">
+                <figcaption>Mr. Tej Nivlikar
+                   <br> Trustee, Advisor..
+                   
+                </figcaption>
+        </div>
+        <div class="memberbox" id="box12">
+            <figure> <img width="250px" height="250px"
+                    src="https://samiti-org.translate.goog/wp-content/uploads/2017/11/Mrs.-Supriyatai-Kelovkar.jpg?_x_tr_sl=mr&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc" alt="Mr. Ratnakar Mate
+                                    faithful, worker">
+                <figcaption>Supriyatai Kelavkar
+                   <br>
+                   Trustees, consultants, Activists
+                </figcaption>
+        </div>
+        <div class="memberbox" id="box5">
+            <figure> <img width="250px" height="250px"
+                    src="https://samiti.org/wp-content/uploads/2021/06/Jibhau-Shewale-260821-300x343.jpg" alt="Mr. Jibhau Shewale
+                                    faithful, worker">
+                <figcaption> Mr. Jibhau Shewale<br>
+                    faithful, worker
+                </figcaption>
+        </div>
+
+</div>
+
+
+      
+
+
+
+         
+                   
+                       
+                        
+                       
+<!--                        
+        </div2>
+            <br>
+                        
+                        <h2> committee</h2>
+                        <br> 
+
+            <p1>
+
+                The medium of communication, the committee keeps trying to get through
+                thousands of visitors. Ha samiticha don't exchange, but tytun samiti's information come for
+                the sake of oneself. Samitine sthapne pasoon samajachya madatine eight thousand ahund more
+                students aa madticha hand.
+                Vidyarthi Sahayak Committee, Pune
+                1182/ 1/4, Shivajinagar, Ferguson College Rasta,
+                Pune :- 411005
+                Contact :- 94048 55530 | 020- 25533631
+                E-mail : info@samiti.org
+                Indicated : www.samiti.org</p1>
+            <image src="https://samiti.org/wp-content/uploads/2022/04/Untitled-1-4.jpg"></image>
+            <br>
+
+            <h2>History</h2>
+
+            <br>
+            <img src="https://samiti.org/wp-content/uploads/2021/09/dr-apate.png"></img>
+
+            <p1>
+                Dr. Achyut Shankar Apte or the great social worker, Kachya Sankalp Netoon 1955 year old
+                student Sahaiyachya Sankalpneche Beej Rowley Gele. Teaching ghet astana garju
+                vidyartyanyachya shikshanasathi tethil citizens in France, the government helps them. Yatun
+                ya country chha approach to teaching, tyani lakshat aala and tyvechya indiatilya educational
+                status subject tyani contemplation banana. Bharata Partalyavar Samvichari Lokanshi Boloon
+                Survatila five rural students Punyat Varane Jevanachi Soy Karanyat Aali. Rural Bhagatil
+                Garju and higher education fellow, Punyaat Yeon Swatala, Siddha Karu Pahananya Hotkaru
+                Vidyarthyansathi residence and food arrangements Aselya Vastigrihanchi Ujjani Yach Sankalp
+                Netoon Sakarli. Or the name of the concept 'Vidyarthi Sahayak Samiti'.</p1>
+            <br>---> -->
+
+
+</body>
+
+</html>

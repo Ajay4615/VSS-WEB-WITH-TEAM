@@ -1,0 +1,85 @@
+.mediabox{
+  padding: 12px;
+  width: auto;
+  /* border: solid grey; */
+  margin: 20px;
+  width: auto;
+  height: auto;
+  margin-left: -17px;
+  
+ }
+ .mediacontainer{
+      display: flex;
+      height: auto;
+      width: auto;
+     
+      flex-wrap: wrap;
+      background-color: rgb(56, 77, 77);
+      margin-top: -23px;
+      margin-left: -9px;
+  
+      /* flex-direction: column; */
+   
+
+ }
+ .h1{
+  text-align: center;
+  color: white;
+  margin-top: -20px;
+  margin-bottom: 23px;
+  margin-left: -9px;
+  background-color: black;
+  width: auto;
+  height:50px
+  
+
+ }
+
+
+  figcaption{
+   text-align: center;
+   color: rgb(234, 234, 244);
+   font-weight: bold;
+   background-color: rgba(34, 28, 28, 0.833);
+
+  }
+ 
+ #box1{
+  padding: 20px;
+
+ }
+ #box2{
+  padding: 20px;
+ }
+ #box3{
+  padding: 20px;
+ }
+ #box4{
+  padding: 10px;
+
+ }
+ #box5{
+  padding: 20px;
+  border:10px solid red
+ }
+ #box6{
+  padding: 20px;
+ }
+ #box7{
+  padding: 20px;
+ }
+ #box8{
+  padding: 20px;
+ }
+ #box9{
+  padding: 20px;
+ }
+ #box10{
+  padding: 20px;
+ }
+ #box11{
+  padding: 20px;
+ }
+ #box12{
+  padding: 20px;
+ }
